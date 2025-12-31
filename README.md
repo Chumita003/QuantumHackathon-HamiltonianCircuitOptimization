@@ -64,7 +64,8 @@ To reproduce the workflow:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Chumita003/QuantumHackathon-HamiltonianCircuitOptimization.git cd QuantumHackathon-HamiltonianCircuitOptimization
+git clone https://github.com/Chumita003/QuantumHackathon-HamiltonianCircuitOptimization.git
+cd QuantumHackathon-HamiltonianCircuitOptimization
 ```
 2. Install dependencies:
 ```bash
