@@ -59,7 +59,8 @@ hackathon. Further extensions could include:
 - Noise-aware optimization targeting specific hardware backends
 - Benchmarking optimized circuits using simulated or real hardware
 
-## Usage To reproduce the workflow: 
+## Usage 
+To reproduce the workflow: 
 
 1. Clone the repository:
 ```bash
