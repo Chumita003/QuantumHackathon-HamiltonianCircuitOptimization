@@ -60,7 +60,7 @@ hackathon. Further extensions could include:
 - Benchmarking optimized circuits using simulated or real hardware
 
 ## Usage 
-To reproduce the workflow: 
+This workflow reproduces the circuit construction and optimization steps used during the hackathon.
 
 1. Clone the repository:
 ```bash
