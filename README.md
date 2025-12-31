@@ -58,3 +58,32 @@ hackathon. Further extensions could include:
 - Quantitative comparison of circuit depth and gate counts
 - Noise-aware optimization targeting specific hardware backends
 - Benchmarking optimized circuits using simulated or real hardware
+
+## Usage To reproduce the workflow: 
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Chumita003/QuantumHackathon-HamiltonianCircuitOptimization.git cd QuantumHackathon-HamiltonianCircuitOptimization
+```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Generate the base circuit from the Hamiltonian terms:
+```bash
+python Circuit_generate.py
+```
+This will create base_circuit.qasm.
+
+4. Optimize the circuit using Qiskit transpiler passes:
+```bash
+python Optimize_circuit.py
+```
+This will produce optimized_circuit.qasm.
+
+5. Draw and export the circuits as images:
+```bash
+python draw_circuits.py
+```
+This will generate base_circuit.png and optimized_circuit.png for visual comparison.
